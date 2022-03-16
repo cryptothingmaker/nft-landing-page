@@ -80,7 +80,7 @@ function updateStatusText(isOwner, checking) {
     if(isOwner) {
       statusText.innerText = `You do own ${COLLECTION_NAME} Characters!! Let's see how many${renderDots(dots)}`;
     } else {
-      statusText.innerText = `Checking to see if you own any ${COLLECTION_NAME} NTs${renderDots(dots)}`;
+      statusText.innerText = `Checking to see if you own any ${COLLECTION_NAME} NFTs${renderDots(dots)}`;
     }
   } else {
     if(isOwner) {
